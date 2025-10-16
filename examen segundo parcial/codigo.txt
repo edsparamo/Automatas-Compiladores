@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+    int contador = 0;
+    bool activo = true;
+    float promedio = 0.0;    
+    const int LIMITE = 10; 
+
+    double A = principal * ((pow((1 + rate / 100), time)));
+    double CI = A - principal;
+
+    cout << "El interes compuesto es " << CI;
+
+  
+    for (int i = 0; i < 10; i++) {
+        contador = contador + i;
+    }
+
+    if (contador > 100 && activo) {
+        resultado = true;
+    } else {
+        resultado = false;
+    }
+
+    return 0;
+}
+
